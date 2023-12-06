@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "flask-easyswagger"
+version = "0.1.0"
+description = "Extension designed to simplify creating OpenAPI documentation for your APIs built with Flask."
+authors = ["Carlos Mateus <carlosmatateumateus@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
